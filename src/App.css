@@ -1,0 +1,129 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.addTask {
+  height: 30vh;
+  background-color: dodgerblue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.task {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.task button {
+  width: auto;
+  height: 20px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-buttons button:focus {
+  outline: none;
+}
+
+.filter-buttons button.active {
+  background-color: #007bff; /* blue color */
+  color: white;
+}
+
+.sort-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sort-buttons button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sort-buttons button:focus {
+  outline: none;
+}
+
+.sort-buttons button.active {
+  background-color: #ff7300; /* blue color */
+  color: white;
+}
+
+.task button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the text horizontally */
+}
+
+
+.task button.complete {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.task button.delete {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+.task button:hover {
+  background-color: #ddd; /* Light gray */
+  color: black;
+}
+
+.task button:active {
+  transform: translateY(1px); /* Add a slight press effect */
+}
+

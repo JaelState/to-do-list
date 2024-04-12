@@ -1,0 +1,7 @@
+*Displaying the Category*: Modify your Task component to display the category along with the task name.
+
+*Filtering by Category*: Add functionality to filter tasks based on their category, allowing users to view tasks from a specific category only.
+
+*Grouping Tasks by Category*: Group tasks in your UI based on their category, providing a visual separation between different categories of tasks.
+
+*Sorting by Category*: Implement sorting functionality to sort tasks based on their category, which can be useful for users who want to prioritize tasks from certain categories.
